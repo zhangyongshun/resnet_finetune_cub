@@ -35,7 +35,6 @@ Detailed information as follows:
 - Directory car_ims contains total images (both training and testing images,  whose number is 16185)
 - File car_nori.list contains information as follows: 
 
-![car_nori.list](/Users/megvii/Desktop/屏幕快照 2019-02-21 上午10.51.12.png)
 
 ## How to use
 
