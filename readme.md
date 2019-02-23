@@ -4,7 +4,7 @@
 
 This repo contains codes for fine tuning ResNet on CUB_200_2011 datasets.
 
-Because ResNet_SE and ResNet_ED's  model files do not belong for me, so I remove them in the projects. 
+Because ResNet_SE and ResNet_ED's  model files do not belong to me, so I remove them in the projects. 
 
 The ResNet models provided by torchvision are available.
 
