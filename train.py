@@ -9,7 +9,7 @@ def main():
     parser = argparse.ArgumentParser(
         description='Options for base model finetuning on CUB_200_2011 datasets'
     )
-    parser.add_argument('--batch_size', type=int, default=128,
+    parser.add_argument('--batch_size', type=int, default=64,
                         help='batch size for training')
     parser.add_argument('--base_lr', type=float, default=0.001,
                         help='base learning rate for training')
@@ -25,7 +25,7 @@ def main():
                         help='weight_decay for SGD')
     parser.add_argument('--gpu_id', type=int, default=0,
                         help='choose one gpu for training')
-    parser.add_argument('--img_size', type=int, default=224,
+    parser.add_argument('--img_size', type=int, default=448,
                         help='image\'s size for transforms')
     args = parser.parse_args()
     assert args.gpu_id.__class__ == int
