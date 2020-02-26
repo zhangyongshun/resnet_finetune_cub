@@ -40,7 +40,7 @@ Detailed information as follows:
 
 ```
 git clone https://github.com/zhangyongshun/resnet_finetune_cub.git
-cd base_model_finetune
+cd resnet_finetune_cub
 #You need to modify the paths of model and data in utils/Config.py
 python train.py --net_choice ResNet --model_choice 50 #ResNet50, use default setting to get the Acc reported in readme
 ```
