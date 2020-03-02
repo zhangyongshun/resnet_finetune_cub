@@ -14,7 +14,7 @@ def main():
     parser.add_argument('--base_lr', type=float, default=0.001,
                         help='base learning rate for training')
     parser.add_argument('--net_choice', type=str, required=True,
-                        help='net_choice for choosing network, whose value is in ["ResNet", "ResNet_ED", "ResNet_SE"]')
+                        help='net_choice for choosing network, whose value is in ["ResNet"]')
     parser.add_argument('--model_choice', type=int, required=True,
                         help='model_choice for choosing depth of network, whose value is in [50, 101, 152]')
     parser.add_argument('--epochs', type=int, default=95,
