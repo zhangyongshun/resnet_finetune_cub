@@ -2,7 +2,7 @@ import torch
 from torchvision import transforms
 import torch.nn as nn
 import numpy as np
-from models.models_for_cub import ResNet, ResNet_SE, ResNet_ED,ResNet_self
+from models.models_for_cub import ResNet
 from cub import cub200
 import os
 import matplotlib.pyplot as plt
