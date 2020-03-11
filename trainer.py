@@ -38,7 +38,7 @@ class NetworkManager(object):
                                  std=(0.229, 0.224, 0.225))
         ]
         test_transforms_list = [
-            transforms.Resize(self.options['img_size']),
+            transforms.Resize(int(self.options['img_size']/0.875)),
             transforms.CenterCrop(self.options['img_size']),
             transforms.ToTensor(),
             transforms.Normalize(mean=(0.485, 0.456, 0.406),
