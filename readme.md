@@ -1,4 +1,4 @@
-# Fine Tune ResNet on CUB-200-2011 and Stanford Cars Datasets
+# Fine Tune ResNet on CUB-200-2011 Dataset
 
 # Introduction
 
@@ -24,18 +24,6 @@ is as follows.
 - Format of classes.txt: <class_id> <class_name>
 - Format of iamge_class_labels.txt: <image_id> <class_id>
 
-#### 2.Stanford Cars
-
-Stanford Cars datasets has 16185 images of 196 car species. The project page is as follows.
-
-[Stanford Car](http://ai.stanford.edu/~jkrause/cars/car_dataset.html)
-
-Detailed information as follows:
-
-- Directory car_ims contains total images (both training and testing images,  whose number is 16185)
-- File car_nori.list contains information as follows: 
-
-
 ## How to use
 
 ```
@@ -50,5 +38,3 @@ python train.py --net_choice ResNet --model_choice 50 #ResNet50, use default set
 There are some results as follows:  
 
 ![result](https://github.com/zhangyongshun/resnet_finetune_cub/raw/master/imgs/results.png)
-
-![acc](https://github.com/zhangyongshun/resnet_finetune_cub/raw/master/imgs/Acc.png)
